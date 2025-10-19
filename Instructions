@@ -1,0 +1,20 @@
+____instruction____
+Create folder for database and open in pycharm. 
+Dont use the my environmnet file 
+After creating folder in pycharm drag and drog all files except idea and environment
+Make sure to change sql passwords on config.py(line-8) and .env(line02)
+
+_____Running_____
+After completing all above process do:
+
+pip install -r requirements.txt
+python insert_sample_data.py
+python config.py      
+python run.py  
+
+Run these command in python terminal in order
+
+For opening the database later just run the command:
+
+python run.py
+
